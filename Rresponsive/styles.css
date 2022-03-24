@@ -159,7 +159,9 @@ header+nav {
     max-width: 45rem;
     width: 100%;
 }
-
+main {
+    background-color: burlywood;
+}
 /* aside */
 main aside {
     border: 1px solid gray;
@@ -267,15 +269,17 @@ footer li+li:before {
         float: right;
         margin-left: 1rem;
         width: 16rem;
-        background-color: burlywood;
+
     }
 
     header {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        background-color: ghostwhite;
     }
+main{
+    background-color: ghostwhite;
+}
 }
 
 @media (min-width: 600px) {
@@ -293,6 +297,4 @@ footer li+li:before {
         width: 79%;
     }
 }
-main{
-    background-color: burlywood;
-}
+
