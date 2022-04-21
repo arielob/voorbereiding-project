@@ -73,7 +73,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
    text-align: right;
   position: relative;
-  bottom: 1500px;
+  bottom: 1550px;
   text-decoration: underline wheat;
 }
 h2{
@@ -82,7 +82,7 @@ h2{
     color: black;
    text-align: right;
   position: relative;
-  bottom: 1530px;
+  bottom: 1580px;
   text-decoration: underline wheat;
 }
 .logo img{
@@ -91,6 +91,14 @@ h2{
     left: 1200px;
     top: -1180px;
 }
-.monlogo img{
-    height: 100px;
+.monlogo2 img{
+    height: 125px;
+    position: relative;
+    left: 560px;
+    top: -940px;
+}
+.contact{
+    display: flex;
+    justify-content: right;
+
 }
