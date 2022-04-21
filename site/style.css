@@ -124,17 +124,36 @@ h4 {
 .map{
     height: 30px;
     position: relative;
-    left: -30px;
+    left: 520px;
 }
 .text1{
     color: #312c2c;
     position: relative;
-    left: 30px;
+    left: 610px;
     top: -22px;
 }
 .numer{
     color: #312c2c;
     position: relative;
-    left: 35px;
+    left: 610px;
     top: -2px;
+}
+.tel2{
+    height: 23px;
+    position: relative;
+    left: 550px;
+    top: 38px;
+}
+.mail{
+    color: #312c2c;
+    position: relative;
+    left: 610px;
+    top: 12px;
+}
+.screen1{
+    height: 250px;
+    position: relative;
+    left: 20px;
+    top: -120px;
+    box-shadow: 10px 10px lightcoral;
 }
