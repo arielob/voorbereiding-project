@@ -97,8 +97,27 @@ h2{
     left: 560px;
     top: -940px;
 }
-.contact{
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    justify-content: right;
-
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(2, 26, 17);
+    -webkit-text-stroke: blueviolet;
+    text-transform: uppercase;
+    border: inset lightcoral(221, 132, 15);
+    border-width: 10px;
+    background-color: lightcoral;
+    width: 300px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.telephone{
+    height: 30px;
+    position: relative;
+    left: 810px;
+    top: -82px;
 }
