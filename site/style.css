@@ -121,3 +121,20 @@ h4 {
     left: 810px;
     top: -82px;
 }
+.map{
+    height: 30px;
+    position: relative;
+    left: -30px;
+}
+.text1{
+    color: #312c2c;
+    position: relative;
+    left: 30px;
+    top: -22px;
+}
+.numer{
+    color: #312c2c;
+    position: relative;
+    left: 35px;
+    top: -2px;
+}
