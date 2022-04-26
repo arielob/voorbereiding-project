@@ -213,3 +213,9 @@ h4 {
   color: lightcoral;
   
 }
+main{
+    display: flex;justify-content: center;
+}
+.tout{
+    width: 1500px;
+}
