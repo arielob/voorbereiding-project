@@ -199,3 +199,15 @@ h4 {
     left: 612px;
     top: -130px;
 }
+.intro{
+    height: 5;
+    position: relative;
+    left: 10px;
+    top: -1500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: lightcoral;
+  
+}
