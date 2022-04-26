@@ -75,6 +75,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
   bottom: 1550px;
   text-decoration: underline wheat;
+  top: -1700px;
 }
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -84,6 +85,7 @@ h2{
   position: relative;
   bottom: 1580px;
   text-decoration: underline wheat;
+  top: -1730px;
 }
 .logo img{
     height: 100px;
