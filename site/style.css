@@ -113,12 +113,11 @@ h4 {
 }
 .flex-center{
     display: flex; justify-content: space-around;
+    align-items: center;
 }
 .telephone{
-    height: 30px;
+    height: 25px;
     
-    left: 810px;
-    top: -82px;
 }
 .map{
     height: 30px;
@@ -163,7 +162,7 @@ h4 {
     top: 12px;
 }
 .logomail{
-    height: 53px;
+    height: 18px;
   
     left: 280px;
     top: -225px;
