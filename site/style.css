@@ -46,14 +46,14 @@ nav input[Type=text]{
     display: flex;
     justify-content: center;
 }
-.foto2 img{
+.fotogauche img{
     height: 300px;
   
     left: 20px;
     top: 10px;
     box-shadow: 10px 10px lightcoral;
 }
-.foto3 img{
+.fotodroite img{
     height: 300px;
    
     left: 950px;
@@ -87,13 +87,11 @@ h2{
   text-decoration: underline wheat;
   top: -1730px;
 }
-.logo img{
-    height: 100px;
-    position: relative;
-    left: 1200px;
-    top: -1180px;
+.sovlogo img{
+    width: 250px;
+    
 }
-.monlogo2 img{
+.Janportaelslogo img{
     height: 125px;
 
     left: 560px;
@@ -114,8 +112,7 @@ h4 {
     width: 300px;
 }
 .flex-center{
-    display: flex;
-    justify-content: center;
+    display: flex; justify-content: space-around;
 }
 .telephone{
     height: 30px;
@@ -202,12 +199,9 @@ h4 {
     top: -130px;
 }
 .intro{
-    height: 5;
-    
-    left: 10px;
-    top: -1500px;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 31px;
     -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   color: lightcoral;
@@ -221,5 +215,7 @@ main{
 }
 .flex-space-around {
     display: flex; justify-content: space-around;
+    align-items: center;
+
     
 }
