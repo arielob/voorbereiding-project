@@ -201,9 +201,8 @@ h4 {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 26px;
-    -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color: lightcoral;
+    -webkit-text-stroke-width: 0,8px;
+  color: black;
   
 }
 main{
@@ -215,6 +214,7 @@ main{
 .flex-space-around {
     display: flex; justify-content: space-around;
     align-items: center;
+    padding: 10px;
 
     
 }
@@ -228,7 +228,7 @@ main{
 }
 .site-footer
 {
-  background-color:#26272b;
+  background-color: rgb(139, 205, 214);
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -388,4 +388,15 @@ main{
     margin-right:0;
     font-weight:600
   }
+}
+.inschrijftekst{
+  width: -6000px;
+}
+.barre{
+  padding: -300000px;
+}
+.jongeren{
+  height: 400px;
+  display: flex;
+  justify-content: center;
 }
