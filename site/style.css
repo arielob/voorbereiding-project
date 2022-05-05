@@ -45,7 +45,7 @@ nav input[Type=text]{
 .centrer{
     display: flex;
     justify-content: center;
-    padding-right: 100px;
+    padding-right: 70px;
 }
 .fotogauche img{
     height: 300px;
@@ -64,8 +64,6 @@ nav input[Type=text]{
 .pierre img{
     height: 300px;
    
-    left: 550px;
-    top: -300px;
     box-shadow: 10px 10px lightcoral;
 }
 h1{
@@ -89,7 +87,8 @@ h2{
   top: -1730px;
 }
 .sovlogo img{
-    width: 200px;
+    height: 150px;
+    padding-right: 50px;
     
 }
 .Janportaelslogo img{
@@ -216,6 +215,7 @@ main{
     display: flex; justify-content: space-around;
     align-items: center;
     padding: 10px;
+    padding-right: 80px;
 
     
 }
