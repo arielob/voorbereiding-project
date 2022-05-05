@@ -106,7 +106,7 @@ h4 {
     color: rgb(2, 26, 17);
     -webkit-text-stroke: blueviolet;
     text-transform: uppercase;
-    border: inset lightcoral(221, 132, 15);
+    border: inset lightcoral;
     border-width: 10px;
     background-color: lightcoral;
     width: 300px;
@@ -180,7 +180,7 @@ h4 {
     color: rgb(2, 26, 17);
     -webkit-text-stroke: blueviolet;
     text-transform: uppercase;
-    border: inset lightcoral(221, 132, 15);
+    border: inset lightcoral;
     border-width: 10px;
     background-color: lightcoral;
     width: 300px;
@@ -390,13 +390,13 @@ main{
   }
 }
 .inschrijftekst{
-  width: -6000px;
-}
-.barre{
-  padding: -300000px;
+  width: 6000px;
 }
 .jongeren{
-  height: 400px;
+  height: 40px;
   display: flex;
   justify-content: center;
 }
+
+
+
