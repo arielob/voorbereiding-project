@@ -5,3 +5,7 @@ Taken ter voorbereiding van project Webdesign 2022 CVO COOVI
 - basic design updaten en te gebruiken kleuren geven
 - menu laten werken
 - op zijn minst 2 pagina's laten werken
+
+## 05/05/2022
+- caroussel toevoegen
+- en iets anders
