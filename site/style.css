@@ -45,6 +45,7 @@ nav input[Type=text]{
 .centrer{
     display: flex;
     justify-content: center;
+    padding-right: 100px;
 }
 .fotogauche img{
     height: 300px;
@@ -55,7 +56,7 @@ nav input[Type=text]{
 }
 .fotodroite img{
     height: 300px;
-   
+ 
     left: 950px;
     top: -300px;
     box-shadow: 10px 10px lightcoral;
