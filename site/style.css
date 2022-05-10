@@ -606,8 +606,23 @@ transform:rotateY(45deg) translateZ(540px) scale(1)
 .overons{
 
   font-family: 'Times New Roman', Times, serif;
+  border: inset lightcoral;
+  border-width: 10px;
   background-color: lightcoral;
-  
+  width: 123px;
 }
+.links{
+  font-family: 'Times New Roman', Times, serif;
+  border: inset lightcoral;
+  border-width: 10px;
+  background-color: lightcoral;
+  width: 180px;
+}
+.text-justify{
+  font-family: cursive;
+  font-size: 20px;
+  color: black
+}
+
 
 
