@@ -621,7 +621,11 @@ transform:rotateY(45deg) translateZ(540px) scale(1)
 .text-justify{
   font-family: cursive;
   font-size: 20px;
-  color: black
+  color: black 
+}
+.footer-links{
+  color: rgb(156, 0, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
