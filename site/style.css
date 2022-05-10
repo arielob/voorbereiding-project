@@ -9,6 +9,8 @@ nav{
     line-height: 20px;
 }
 nav a{
+  font-family: sans-serif;
+  background-color: lightcoral;
     float: left;
     display: block;
     text-align: center;
@@ -17,8 +19,9 @@ nav a{
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    color: black;
-    
+    color: rgb(255, 255, 255)
+
+  
 }
 nav a:hover{
     background: #ddd;
@@ -26,6 +29,7 @@ nav a:hover{
 }
 nav.active{
     background: #601b75;
+    
 }
 nav input[Type=text]{
     float: right;
@@ -199,9 +203,9 @@ h4 {
 }
 .intro{
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 26px;
-    -webkit-text-stroke-width: 0,8px;
+    font-family: cursive;
+    font-size: 27px;
+    -webkit-text-stroke-width: 1,6px;
   color: black;
   
 }
@@ -600,9 +604,9 @@ transform:rotateY(45deg) translateZ(540px) scale(1)
 		
 	}
 .overons{
-  text-decoration: underline rgb(211, 142, 14);
-  font-family: fantasy;
-  color: #7fd114;
+
+  font-family: 'Times New Roman', Times, serif;
+  background-color: lightcoral;
   
 }
 
