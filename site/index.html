@@ -7,11 +7,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
+    <header id="container">
+        <nav>
+            <div id="logo">
+                <!--hier kan je logo plaatsen
+                logo hieronder is een voorbeeld, pas dit aan!
+                -->
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <label for="drop" class="toggle">Menu <i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <!-- om dropdown te maken, doe je zo:  -->
+                    <label for="drop-1" class="toggle">Ateliers +</label>
+                    <a href="#">Ateliers</a>
+                    <input type="checkbox" id="drop-1" />
+                    <ul>
+                        <li><a href="#">Themes and stuff</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                    </ul>
+
+                </li>
+                <li>
+                    <!-- om dropdown te maken, doe je zo:  -->
+                    <label for="drop-2" class="toggle">Kunsttheorie +</label>
+                    <a href="#">Web Design</a>
+                    <input type="checkbox" id="drop-2" />
+                    <ul>
+                        <li>
+                            <a href="#">Resources</a>
+                        </li>
+                        <li>
+                            <a href="#">Links</a>
+                        </li>
+                        <li>
+                            <!-- dan om een 2e niveau te krijgen in je dropdown doe je dit hier -->
+                            <label for="drop-3" class="toggle">Tutorials +</label>
+                            <a href="#">Tutorials</a>
+                            <input type="checkbox" id="drop-3" />
+
+                            <ul>
+                                <li><a href="#">HTML/CSS</a></li>
+                                <li><a href="#">jQuery</a></li>
+                                <li><a href="#">Other</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Schrijf in</a></li>
+                <li><a href="Contact#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <div class="tout">
+
+            <!--
             <nav>
 
                 <a class="active" href="index.html">Home</a>
@@ -22,6 +84,9 @@
                 <input type="text" placeholder="Search">
 
             </nav>
+            -->
+
+
             <div class="flex-space-around">
                 <div class="intro">
                     Vrije Tijd ,
@@ -92,7 +157,7 @@
                 <input id="carou_six" name="rotation" type="radio">
                 <label for="carou_six"></label>
                 <input id="carou_sept" name="rotation" type="radio">
-                
+
 
                 <div class="contenu_carou">
                     <div class="caroussel">
@@ -102,7 +167,7 @@
                         <img src="screen2.PNG" alt="">
                         <img src="screenshot.PNG" alt="">
                         <img src="sourire.PNG" alt="">
-                        
+
 
 
 
@@ -154,9 +219,9 @@
                 </div>
                 <div class="barre">
                     <input type="text" placeholder="Vul je e-mail in">
-                   
+
                 </div>
-                Gemaakt door Ariel 
+                Gemaakt door Ariel
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="social-icons">
                         <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
