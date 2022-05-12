@@ -1,10 +1,10 @@
 /* CSS Document voor navigatie / drop down; gelieve enkel kleuren of font-style/font-size aan te passen */
 
 header {
-    background: #41077e;
+    background: #eeebf1;
     font-size: 22px;
     line-height: 32px;
-    color: lightpink;
+    color: lightcoral;
     margin: 0;
     padding: 0;
     word-wrap: break-word !important;
@@ -14,22 +14,22 @@ header {
 header h1 {
     font-size: 60px;
     text-align: center;
-    color: lightpink;
+    color: lightcoral;
 }
 
 header h3 {
     font-size: 30px;
     line-height: 34px;
     text-align: center;
-    color: lightpink;
+    color: lightcoral;
 }
 
 header h3 a {
-    color: lightpink;
+    color: lightcoral;
 }
 
 header a {
-    color: lightpink;
+    color: lightcoral;
 }
 
 header h1 {
@@ -54,7 +54,7 @@ header h1 {
 nav {
     margin: 0;
     padding: 0;
-    background-color: #620277;
+    background-color: lightcoral;
 }
 
 #logo {
@@ -89,26 +89,26 @@ nav ul li {
     margin: 0px;
     display: inline-block;
     float: left;
-    background-color: #620277;
+    background-color: lightcoral;
 }
 
 /* Styling the links */
 nav a {
     display: block;
     padding: 14px 20px;
-    color: lightpink;
+    color: white;
     font-size: 17px;
     text-decoration: none;
 }
 
 
 nav ul li ul li:hover {
-    background: #000000;
+    background: lightcoral;
 }
 
 /* Background color change on Hover */
 nav a:hover {
-    background-color: #000000;
+    background-color: lightcoral;
 }
 
 /* Hide Dropdowns by Default
@@ -184,16 +184,16 @@ li>a:only-child:after {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #254441;
+        background-color: lightcoral;
         padding: 14px 20px;
-        color: lightpink;
+        color: lightcoral;
         font-size: 17px;
         text-decoration: none;
         border: none;
     }
 
     .toggle:hover {
-        background-color: #000000;
+        background-color: lightcoral;
         cursor: pointer;
     }
 
@@ -219,28 +219,28 @@ li>a:only-child:after {
 
     nav a:hover,
     nav ul ul ul a {
-        background-color: #000000;
+        background-color: lightcoral;
     }
 
     nav ul li ul li .toggle,
     nav ul ul a,
     nav ul ul ul a {
         padding: 14px 20px;
-        color: lightpink;
+        color: lightcoral;
         font-size: 17px;
     }
 
 
     nav ul li ul li .toggle,
     nav ul ul a {
-        background-color: #212121;
+        background-color: lightcoral;
     }
 
     /* Hide Dropdowns by Default */
     nav ul ul {
         float: none;
         position: static;
-        color: lightpinkfff;
+        color: lightcoral
         /* has to be the same number as the "line-height" of "nav a" */
     }
 
