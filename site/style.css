@@ -621,6 +621,8 @@ transform:rotateY(45deg) translateZ(540px) scale(1)
   color: rgb(156, 0, 0);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.site-footer{
+  padding: 10px;
+}
 
 
