@@ -108,7 +108,7 @@ nav ul li ul li:hover {
 
 /* Background color change on Hover */
 nav a:hover {
-    background-color: lightcoral;
+    background-color: rgb(202, 214, 240);
 }
 
 /* Hide Dropdowns by Default
@@ -186,14 +186,14 @@ li>a:only-child:after {
         align-items: center;
         background-color: lightcoral;
         padding: 14px 20px;
-        color: lightcoral;
+        color: rgb(250, 243, 240);
         font-size: 17px;
         text-decoration: none;
         border: none;
     }
 
     .toggle:hover {
-        background-color: lightcoral;
+        background-color: rgb(112, 172, 230);
         cursor: pointer;
     }
 
