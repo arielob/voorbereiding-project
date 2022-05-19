@@ -112,6 +112,7 @@ h4 {
 .flex-center{
     display: flex; justify-content: space-around;
     align-items: center;
+    padding: 25px;
 }
 .telephone{
     height: 25px;
@@ -223,7 +224,8 @@ main{
 .sovlogocont{
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 150px;
+    padding: 10px;
 }
 .site-footer
 {
