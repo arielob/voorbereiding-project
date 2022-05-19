@@ -624,5 +624,12 @@ transform:rotateY(45deg) translateZ(540px) scale(1)
 .site-footer{
   padding: 10px;
 }
-.
+.ate img{
+  height: 300px;
+  box-shadow: 10px 10px lightcoral;
+}
+.volwaate img{
+  height: 300px;
+  box-shadow: 10px 10px lightcoral;
+}
 
