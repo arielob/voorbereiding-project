@@ -11,18 +11,50 @@
 </head>
 
 <body>
+    <header id="container">
+        <nav>
+            <div id="logo">
+                <!--hier kan je logo plaatsen
+                logo hieronder is een voorbeeld, pas dit aan!
+                -->
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <label for="drop" class="toggle">Menu <i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="ateliers.html">Ateliers</a>
+                </li>
+           
+                <li>
+                    <!-- om dropdown te maken, doe je zo:  -->
+                    <label for="drop-2" class="toggle">Kunsttheorie</label>
+                    <a href="kunsttheorie.html">Kunsttheorie</a>
+                    <input type="checkbox" id="drop-2" />
+                    <ul>
+                        <li>
+                            <a href="news.html">Nieuws</a>
+                        </li>
+                        
+                        <li>
+                          
+
+                           
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Contact.html">contact</a></li>
+                <li><a href="schrijfin.html">Schrijf in</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <div class="tout">
-            <nav>
-
-                <a class="active" href="index.html">Home</a>
-                <a href="ateliers.html">Ateliers</a>
-                <a href="kunsttheorie.html">Kunsttheorie</a>
-                <a href="schrijfin.html">Schrijf in</a>
-                <a href="Contact.html">Contact</a>
-                <input type="text" placeholder="Search">
-
-            </nav>
+           
             <div class="flex-space-around">
             <div class="flex-center">               
                 <h4> CONTACT</h4>
